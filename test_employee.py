@@ -6,4 +6,4 @@ def test_employee_info():
       "Department:IT\n"
       "Salary:50000"
     )
-   assert employee_info("Alice","E1001","IT",55000) == expected_output
+   assert employee_info("Alice","E1001","IT",50000) == expected_output
